@@ -10,13 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5750e5e36be1cd74e86d7a1f026d4177, type: 3}
-  m_Name: GreyLizard
+  m_Name: GreySpecial(Crocodile)
   m_EditorClassIdentifier: 
   kAmount: 0
   kStrength: 0
   kHealth: 0
   creationTime: 0
-  kName: Grey Lizard
-  kNeededKobolds:
-  - {fileID: 11400000, guid: 511c1a24d1897334e90ad58018266964, type: 2}
-  amountRequired: 14000000
+  kName: Grey Crocodile
+  kNeededKobolds: []
+  amountRequired: 

@@ -27,7 +27,11 @@ public class WSController : MonoBehaviour
         }
     }
 
-    void CheckWorkers(){
+    public void ChangeWorkers(int kWorkers, int amount){
+        
+    }
+
+    bool CheckWorkers(){
         for (int i = 0; i < workingKobolds.Length; i++){
             if (workingKobolds[i] > 0){
                 return(true);

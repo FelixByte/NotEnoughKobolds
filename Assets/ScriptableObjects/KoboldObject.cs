@@ -12,6 +12,10 @@ public class KoboldObject : ScriptableObject
     public int creationTime;
     public string kName;
 
+    //used for making requirements
+    public List<KoboldObject> kNeededKobolds;
+    public List<int> amountRequired;
+
     void Start(){
         kAmount = 0;
     }
